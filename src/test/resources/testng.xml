@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Exercise Full Regression Suite" parallel="classes" thread-count="4">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="End-to-End Regression Tests">
+        <packages>
+            <package name="ui_tests"/>
+
+            <package name="api_tests"/>
+        </packages>
+    </test>
+
+</suite>

@@ -1,0 +1,18 @@
+# Build Folders
+target/
+allure-results/
+allure-report/
+bin/
+
+# AspectJ logs
+ajcore.*.txt
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# System files
+.DS_Store
+Thumbs.db
